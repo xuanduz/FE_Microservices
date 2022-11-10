@@ -1,0 +1,37 @@
+.settings {
+    display: flex;
+}
+
+.setting_Wrapper {
+    flex: 9;
+    padding: 20px;
+}
+
+.setting_Wrapper__Title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.setting_Wrapper__Title--Update {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: lightcoral;
+}
+
+.setting_Wrapper__Form {
+    display: flex;
+    flex-direction: column;
+}
+
+.setting_Wrapper__Form--Submit {
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}

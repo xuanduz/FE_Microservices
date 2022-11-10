@@ -1,0 +1,121 @@
+.sidebar {
+    flex: 3;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #fbfbfb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar__Item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar__Item--Title {
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: 1px solid #a7a4a4;
+    border-bottom: 1px solid #a7a4a4;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+    color: #222;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+}
+
+.sidebar>img {
+    margin-top: 15px;
+}
+
+.sidebar p {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 30px;
+    text-align: center;
+}
+
+.sidebar__Item--List {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.sidebar__Item--ListItem {
+    display: inline-block;
+    width: 49%;
+    margin-top: 15px;
+    cursor: pointer;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.sidebar__Item--Social {
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar__Item--SocialItem {
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+.fa-square-facebook:hover {
+    color: #3b5998;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.fa-square-twitter:hover {
+    background-color: white;
+    color: rgb(54, 91, 213);
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.fa-square-instagram:hover {
+    color: white;
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+
+}
+
+.fa-square-pinterest:hover {
+    color: red;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+
+}
+
+.fa-square-facebook,
+.fa-square-twitter,
+.fa-square-instagram,
+.fa-square-pinterest {
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}

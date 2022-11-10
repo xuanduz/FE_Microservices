@@ -1,0 +1,8 @@
+
+# @name getAllPosts
+GET http://localhost:3006/api/posts/?post_id=1
+
+###
+
+# @name getSinglePost
+GET http://localhost:3006/api/posts
